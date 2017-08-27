@@ -1,0 +1,102 @@
+
+.empty_divider_module {
+    min-height: 3px;
+}
+.et_pb_fullwidth_header .header-content{
+    background-color: rgba(160, 1, 4, 0.53);
+}
+
+@media only screen and ( min-width: 768px) and ( max-width: 980px) {}
+
+@media screen and ( max-width: 782px) {}
+
+
+/*-------------------[480px]------------------*/
+
+@media only screen and ( max-width: 767px) {}
+
+
+/*-------------------[320px]------------------*/
+
+@media only screen and ( max-width: 479px) {}
+
+@media only screen and (max-width: 320px) {}
+
+/* @media only screen and ( min-width: 480px ) {
+    .graphic-design-hero .et_pb_fullwidth_header .header-content h1 {
+      letter-spacing: .07em;
+      text-shadow: 0px 0px transparent, 1px 1px #19F, 2px 2px #19F, 3px 3px #EA0, 4px 4px #EA0, 5px 5px #E62, 6px 6px #E62, 7px 7px #E62, 8px 8px #C25, 9px 9px #C25, 10px 10px #19F;
+    }
+    } */
+
+
+
+      .et_pb_section.et_pb_fullwidth_section.graphic-design-hero {
+        /* height: 100vh; */
+        /* overflow: hidden; */
+                
+        /* This part does not play well with firefox 55+ */
+        /* background: -webkit-radial-gradient(
+          bottom, 
+          circle, 
+          #ffffff, 
+          rgba(0, 0, 0, 0) 100%), 
+          -webkit-linear-gradient(bottom, dodgerblue 0%, transparent 100%), 
+          -webkit-linear-gradient(top, transparent, rgba(255, 255, 255, 0.4) 100%), 
+          #1e90ff; */
+
+          /* This part does not play well with firefox 55+ */
+          /* background: radial-gradient(
+            circle at bottom, 
+            #ffffff, 
+            rgba(0, 0, 0, 0) 100%), 
+              linear-gradient(
+                to top, 
+                dodgerblue 0%, 
+                transparent 100%), 
+              linear-gradient(
+                  to bottom, 
+                  transparent, 
+                  rgba(255, 255, 255, 0.4) 100%),
+           #1e90ff; */
+        
+        -webkit-animation: bg 10s infinite;
+                animation: bg 10s infinite;
+        /* background-image:url(/wp-content/uploads/circle-mess2-transp-01.svg); */
+        /* background-image:url(/wp-content/uploads/circle-mess2.svg) */
+      }
+      
+      @-webkit-keyframes bg {
+        0%, 100% {
+          background-color: #1e90ff;
+        }
+        25% {
+          background-color: #39d24a;
+        }
+        50% {
+          background-color: #ffe244;
+        }
+        75% {
+          background-color: #ff36a3;
+        }
+      }
+      
+      @keyframes bg {
+        0%, 100% {
+          background-color: #1e90ff;
+        }
+        25% {
+          background-color: #39d24a;
+        }
+        50% {
+          background-color: #ffe244;
+        }
+        75% {
+          background-color: #ff36a3;
+        }
+      
+    }
+
+    @media screen and (-webkit-min-device-pixel-ratio:0) and (max-width: 320px) {
+       /* body.page-id-48 {background-image:url(/wp-content/uploads/circle-mess-transp-01.svg);} */
+    }

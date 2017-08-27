@@ -1,0 +1,68 @@
+/*
+Theme Name:  URCHIN
+Theme URI:   http://urchin.dev
+Version:     1.0.3
+Description: A child theme of Divi. This is a custom child theme created for our site Urchin.
+Author:      Theuns
+Author URI:  http://urchin.co.za
+Template:    Divi
+*/
+/*
+Theme Name: Divine
+Theme URI: http://urchin.co.za
+Template: Divi
+Author: Theuns Coetzee
+Author URI: http://theunscoetzee.com
+Description: Divine
+Tags: responsive-layout,one-column,two-columns,three-columns,four-columns,left-sidebar,right-sidebar,custom-background,custom-colors,featured-images,full-width-template,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready
+Version: 0.0.1.2
+Updated: 2017-03-19 20:56:27
+
+*/
+
+
+/***********************************************************************
+Caution: do not remove this to keep Divi Children Engine always updated 
+Divi Children Engine version: 1.0.4
+***********************************************************************/
+
+/*------------------------------[FONT ICONS]-----------------------------*/
+/*--[Created by Divi Children, http://divi4u.com/divi-children-plugin/]--*/
+/*-----------------------------------------------------------------------*/
+
+.icon_tags, .icon_profile, .icon_chat, .icon_clipboard, .icon_calendar {
+	font-family: 'ETmodules';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 16px;
+	color: #318EC3;
+}
+.icon_tags:before {
+	content: "\e07c";
+	padding: 0px 5px 0 0;
+}
+.icon_profile:before {
+	content: "\e08a";
+	padding: 0 5px 0 0;
+}
+.icon_chat:before {
+	content: "\e066";
+	padding: 0 5px 0 20px;
+}
+.icon_clipboard:before {
+	content: "\e0e6";
+	padding: 0 5px 0 20px;
+}
+.icon_calendar:before {
+	content: "\e023";
+	padding: 0 5px 0 20px;
+}
+
+/*- YOU CAN INCLUDE THE CUSTOM CODE FOR YOUR CHILD THEME BELOW THIS LINE-*/
+
