@@ -1,6 +1,6 @@
 // Const
 $hamburger-top: 40px;
-$hamburger-right: 40px;
+$hamburger-right: 45px;
 $menu-transition-time: 300s;
 
 // Styling Code
@@ -40,3 +40,24 @@ height: 48px; */
 .hide-updown-hamburger {
     display: none;
 }
+
+
+@media (max-width: 980px) {
+    /* Tablets */
+}
+@media only screen and ( max-width: 768px ) {
+
+ #main-header.invisible { display:none; }
+ #page-container.invisible { padding-top:0px !important }
+ #page-container { margin-top:0px !important }
+ .updown-hamburger {
+    top: $hamburger-top * 0.6;
+    right: $hamburger-right;
+}
+ /* #main-footer { display:none; } */
+ }
+
+ .et_mobile_menu {
+     overflow: scroll !important;
+     max-height: 83vh;
+ }
