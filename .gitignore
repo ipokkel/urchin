@@ -42,6 +42,14 @@ $RECYCLE.BIN/
 # Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
+.vscode
 Network Trash Folder
 Temporary Items
 .apdisk
+js/tempjs.js
+gulpfile.js
+/node_modules
+/divi-children-engine/
+scss/npm-debug.log
+package.json
+js/updownmenu.4x.js
